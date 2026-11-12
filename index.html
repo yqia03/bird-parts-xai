@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A two-minute presentation on how rearranging bird parts changes the evidence used by a prototype-based classifier.">
+<title>Same Bird Parts, Different Evidence · Presentation</title>
+<style>
+:root{color-scheme:light dark;font-family:Inter,system-ui,sans-serif;line-height:1.5;color:#18343d;background:#f6f6ef}*{box-sizing:border-box}
+body{margin:0}main{max-width:65rem;margin:3rem auto;padding:0 clamp(1rem,4vw,3.5rem)}h1{font-size:clamp(2rem,4.8vw,3.8rem);font-weight:650;line-height:1.1;letter-spacing:-.04em;margin:.75rem 0 1.65rem}
+video{display:block;width:100%;aspect-ratio:16/9;background:#101d22;border-radius:.4rem}nav{display:flex;gap:.55rem 1.4rem;flex-wrap:wrap;margin-top:1.2rem}a{color:#195b65;text-underline-offset:.19em}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible{outline:2px solid currentColor;outline-offset:3px}details{margin:2rem 0;max-width:42rem}summary{cursor:pointer;font-weight:600}
+@media(prefers-color-scheme:dark){:root{color:#e8f1ef;background:#101e22}a{color:#8fd7d2}}
+</style>
+</head>
+<body><main>
+<h1>Same Bird Parts, Different Evidence</h1>
+<video controls playsinline preload="metadata" poster="media/poster.jpg" aria-label="Two-minute presentation on how a bird classifier responds to rearranged parts">
+  <source src="media/presentation.mp4" type="video/mp4">
+  <track src="media/presentation.en.vtt" kind="captions" srclang="en" label="English">
+  <a href="media/presentation.mp4">Download the presentation</a>
+</video>
+<nav aria-label="Project links"><a href="https://github.com/yqia03/bird-parts-xai">Project on GitHub</a><a href="media/presentation.mp4" download>Download the video</a></nav>
+<details id="transcript"><summary>Read the transcript</summary>
+<p>What if a bird has all its parts, but they&#x27;re in the wrong places? That&#x27;s our first meme.</p>
+<p>The second shows a group project: one member contributes almost nothing, yet the team gets it right. Can a model do that too?</p>
+<p>We tested one frozen PIP-Net on twenty bird photos from ten species. It adds up learned visual clues, called prototypes.</p>
+<p>We swapped head with tail, or wing with tail, adding twenty-four pixels of separation. We measured raw evidence for the true species, not probability.</p>
+<p>In photo ten, either swap cut evidence from about thirty-two to below one.</p>
+<p>But in photo twelve, swapping wing and tail raised evidence from nineteen to twenty-four. One prototype&#x27;s contribution nearly vanished; others contributed more. The prediction stayed correct, with different support.</p>
+<p>Across twenty photos, the head-tail swap lowered evidence every time. The wing-tail swap lowered it in fourteen and raised it in six.</p>
+<p>We also tested sixteen combinations of four parts using second-order Shapley-Taylor analysis to measure how parts work together. Head-wing interaction scores usually decreased. Lower signed scores don&#x27;t always mean weaker effects, and these scores include effects from other parts.</p>
+<p>Moving the whole bird also changed scores. Position and visible editing seams matter, so these results describe our edits to this model.</p>
+<p>The key finding: the same answer can hide a different explanation.</p>
+</details>
+</main></body></html>

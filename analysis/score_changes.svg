@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="740" viewBox="0 0 860 740">
+<rect width="860" height="740" fill="#fafafa"/>
+<g font-family="Arial, sans-serif" fill="#202a35">
+<text x="40" y="42" font-size="24" font-weight="bold">Moving parts changes the evidence</text>
+<text x="40" y="71" font-size="14">20 source photos · fixed target class · raw score change from L0</text>
+<text x="40" y="101" font-size="14" fill="#006f9b">● L1: head ↔ tail + separation</text>
+<text x="405" y="101" font-size="14" fill="#b35200">● L2: wing ↔ tail + separation</text>
+<line x1="240.2" y1="125" x2="240.2" y2="635" stroke="#ddd"/>
+<text x="240.2" y="657" text-anchor="middle" font-size="13">-30</text>
+<line x1="382.3" y1="125" x2="382.3" y2="635" stroke="#ddd"/>
+<text x="382.3" y="657" text-anchor="middle" font-size="13">-20</text>
+<line x1="524.3" y1="125" x2="524.3" y2="635" stroke="#ddd"/>
+<text x="524.3" y="657" text-anchor="middle" font-size="13">-10</text>
+<line x1="666.4" y1="125" x2="666.4" y2="635" stroke="#536273"/>
+<text x="666.4" y="657" text-anchor="middle" font-size="13">0</text>
+<text x="130" y="154" text-anchor="end" font-size="12">photo_02</text>
+<line x1="364.6" y1="150" x2="624.8" y2="150" stroke="#c8cdd1"/>
+<circle cx="364.6" cy="150" r="4" fill="#006f9b"><title>photo_02: -21.241454</title></circle>
+<circle cx="624.8" cy="150" r="4" fill="#b35200"><title>photo_02: -2.924030</title></circle>
+<text x="130" y="178" text-anchor="end" font-size="12">photo_03</text>
+<line x1="617.1" y1="174" x2="483.6" y2="174" stroke="#c8cdd1"/>
+<circle cx="617.1" cy="174" r="4" fill="#006f9b"><title>photo_03: -3.470942</title></circle>
+<circle cx="483.6" cy="174" r="4" fill="#b35200"><title>photo_03: -12.866909</title></circle>
+<text x="130" y="202" text-anchor="end" font-size="12">photo_04</text>
+<line x1="462.3" y1="198" x2="441.5" y2="198" stroke="#c8cdd1"/>
+<circle cx="462.3" cy="198" r="4" fill="#006f9b"><title>photo_04: -14.369549</title></circle>
+<circle cx="441.5" cy="198" r="4" fill="#b35200"><title>photo_04: -15.827059</title></circle>
+<text x="130" y="226" text-anchor="end" font-size="12">photo_05</text>
+<line x1="584.7" y1="222" x2="492.3" y2="222" stroke="#c8cdd1"/>
+<circle cx="584.7" cy="222" r="4" fill="#006f9b"><title>photo_05: -5.752378</title></circle>
+<circle cx="492.3" cy="222" r="4" fill="#b35200"><title>photo_05: -12.253254</title></circle>
+<text x="130" y="250" text-anchor="end" font-size="12">photo_06</text>
+<line x1="251.9" y1="246" x2="220.1" y2="246" stroke="#c8cdd1"/>
+<circle cx="251.9" cy="246" r="4" fill="#006f9b"><title>photo_06: -29.181140</title></circle>
+<circle cx="220.1" cy="246" r="4" fill="#b35200"><title>photo_06: -31.418687</title></circle>
+<text x="130" y="274" text-anchor="end" font-size="12">photo_07</text>
+<line x1="175.9" y1="270" x2="477.2" y2="270" stroke="#c8cdd1"/>
+<circle cx="175.9" cy="270" r="4" fill="#006f9b"><title>photo_07: -34.530465</title></circle>
+<circle cx="477.2" cy="270" r="4" fill="#b35200"><title>photo_07: -13.320354</title></circle>
+<text x="130" y="298" text-anchor="end" font-size="12">photo_09</text>
+<line x1="472.1" y1="294" x2="696.7" y2="294" stroke="#c8cdd1"/>
+<circle cx="472.1" cy="294" r="4" fill="#006f9b"><title>photo_09: -13.677157</title></circle>
+<circle cx="696.7" cy="294" r="4" fill="#b35200"><title>photo_09: 2.133007</title></circle>
+<text x="130" y="322" text-anchor="end" font-size="12">photo_10</text>
+<line x1="225.1" y1="318" x2="224.9" y2="318" stroke="#c8cdd1"/>
+<circle cx="225.1" cy="318" r="4" fill="#006f9b"><title>photo_10: -31.063325</title></circle>
+<circle cx="224.9" cy="318" r="4" fill="#b35200"><title>photo_10: -31.077242</title></circle>
+<text x="130" y="346" text-anchor="end" font-size="12">photo_11</text>
+<line x1="594.7" y1="342" x2="748.2" y2="342" stroke="#c8cdd1"/>
+<circle cx="594.7" cy="342" r="4" fill="#006f9b"><title>photo_11: -5.047867</title></circle>
+<circle cx="748.2" cy="342" r="4" fill="#b35200"><title>photo_11: 5.760109</title></circle>
+<text x="130" y="370" text-anchor="end" font-size="12">photo_12</text>
+<line x1="633.9" y1="366" x2="731.1" y2="366" stroke="#c8cdd1"/>
+<circle cx="633.9" cy="366" r="4" fill="#006f9b"><title>photo_12: -2.283703</title></circle>
+<circle cx="731.1" cy="366" r="4" fill="#b35200"><title>photo_12: 4.558006</title></circle>
+<text x="130" y="394" text-anchor="end" font-size="12">photo_13</text>
+<line x1="628.3" y1="390" x2="716.1" y2="390" stroke="#c8cdd1"/>
+<circle cx="628.3" cy="390" r="4" fill="#006f9b"><title>photo_13: -2.677319</title></circle>
+<circle cx="716.1" cy="390" r="4" fill="#b35200"><title>photo_13: 3.503954</title></circle>
+<text x="130" y="418" text-anchor="end" font-size="12">photo_14</text>
+<line x1="204.9" y1="414" x2="662.6" y2="414" stroke="#c8cdd1"/>
+<circle cx="204.9" cy="414" r="4" fill="#006f9b"><title>photo_14: -32.487811</title></circle>
+<circle cx="662.6" cy="414" r="4" fill="#b35200"><title>photo_14: -0.265511</title></circle>
+<text x="130" y="442" text-anchor="end" font-size="12">photo_15</text>
+<line x1="318.0" y1="438" x2="691.5" y2="438" stroke="#c8cdd1"/>
+<circle cx="318.0" cy="438" r="4" fill="#006f9b"><title>photo_15: -24.527956</title></circle>
+<circle cx="691.5" cy="438" r="4" fill="#b35200"><title>photo_15: 1.772953</title></circle>
+<text x="130" y="466" text-anchor="end" font-size="12">photo_16</text>
+<line x1="561.6" y1="462" x2="665.2" y2="462" stroke="#c8cdd1"/>
+<circle cx="561.6" cy="462" r="4" fill="#006f9b"><title>photo_16: -7.377892</title></circle>
+<circle cx="665.2" cy="462" r="4" fill="#b35200"><title>photo_16: -0.081615</title></circle>
+<text x="130" y="490" text-anchor="end" font-size="12">photo_17</text>
+<line x1="263.9" y1="486" x2="661.8" y2="486" stroke="#c8cdd1"/>
+<circle cx="263.9" cy="486" r="4" fill="#006f9b"><title>photo_17: -28.333123</title></circle>
+<circle cx="661.8" cy="486" r="4" fill="#b35200"><title>photo_17: -0.323574</title></circle>
+<text x="130" y="514" text-anchor="end" font-size="12">photo_18</text>
+<line x1="176.9" y1="510" x2="622.2" y2="510" stroke="#c8cdd1"/>
+<circle cx="176.9" cy="510" r="4" fill="#006f9b"><title>photo_18: -34.458225</title></circle>
+<circle cx="622.2" cy="510" r="4" fill="#b35200"><title>photo_18: -3.108459</title></circle>
+<text x="130" y="538" text-anchor="end" font-size="12">photo_19</text>
+<line x1="405.1" y1="534" x2="652.9" y2="534" stroke="#c8cdd1"/>
+<circle cx="405.1" cy="534" r="4" fill="#006f9b"><title>photo_19: -18.395971</title></circle>
+<circle cx="652.9" cy="534" r="4" fill="#b35200"><title>photo_19: -0.949490</title></circle>
+<text x="130" y="562" text-anchor="end" font-size="12">photo_20</text>
+<line x1="414.6" y1="558" x2="672.7" y2="558" stroke="#c8cdd1"/>
+<circle cx="414.6" cy="558" r="4" fill="#006f9b"><title>photo_20: -17.723595</title></circle>
+<circle cx="672.7" cy="558" r="4" fill="#b35200"><title>photo_20: 0.449249</title></circle>
+<text x="130" y="586" text-anchor="end" font-size="12">photo_21</text>
+<line x1="346.2" y1="582" x2="375.4" y2="582" stroke="#c8cdd1"/>
+<circle cx="346.2" cy="582" r="4" fill="#006f9b"><title>photo_21: -22.540514</title></circle>
+<circle cx="375.4" cy="582" r="4" fill="#b35200"><title>photo_21: -20.486536</title></circle>
+<text x="130" y="610" text-anchor="end" font-size="12">photo_22</text>
+<line x1="440.2" y1="606" x2="440.0" y2="606" stroke="#c8cdd1"/>
+<circle cx="440.2" cy="606" r="4" fill="#006f9b"><title>photo_22: -15.923358</title></circle>
+<circle cx="440.0" cy="606" r="4" fill="#b35200"><title>photo_22: -15.935127</title></circle>
+<text x="40" y="695" font-size="13">Exploratory results: historical visual QC was 13 failed / 7 pending.</text>
+<text x="40" y="717" font-size="13">Joint position + separation intervention; scores are not probabilities.</text>
+</g></svg>

@@ -1,0 +1,35 @@
+{
+  "photos": 20,
+  "coalition_scores": 960,
+  "games": 60,
+  "terms_checked": 600,
+  "max_term_error_vs_saved": 0.0,
+  "max_efficiency_residual": 2.067790383364354e-15,
+  "all_efficiency_checks_pass": true,
+  "historical_visual_qc": {
+    "failed": 13,
+    "pending": 7
+  },
+  "layouts": {
+    "L1": {
+      "decreased": 20,
+      "increased": 0,
+      "mean_delta": -18.253187203407286,
+      "median_delta": -18.05978298187256
+    },
+    "L2": {
+      "decreased": 14,
+      "increased": 6,
+      "mean_delta": -7.133028441667557,
+      "median_delta": -1.9367599487304688
+    }
+  },
+  "example": {
+    "photo": "photo_12",
+    "head_wing_ST2": {
+      "L0": 4.884404997030894,
+      "L1": -1.6147351016600928,
+      "L2": 0.5705528656641642
+    }
+  }
+}

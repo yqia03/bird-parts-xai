@@ -1,0 +1,162 @@
+WEBVTT
+
+1
+00:00:00.833 --> 00:00:03.667
+What if a bird has all its parts,
+
+2
+00:00:03.867 --> 00:00:05.833
+but they're in the wrong places?
+
+3
+00:00:06.000 --> 00:00:07.433
+That's our first meme.
+
+4
+00:00:07.767 --> 00:00:10.033
+The second shows a group project:
+
+5
+00:00:10.333 --> 00:00:12.533
+one member contributes almost nothing,
+
+6
+00:00:12.733 --> 00:00:14.733
+yet the team gets it right.
+
+7
+00:00:15.033 --> 00:00:16.633
+Can a model do that too?
+
+8
+00:00:16.867 --> 00:00:18.700
+We tested one frozen PIP-Net
+
+9
+00:00:18.700 --> 00:00:22.400
+on twenty bird photos from ten species.
+
+10
+00:00:23.000 --> 00:00:25.500
+It adds up learned visual clues,
+
+11
+00:00:25.633 --> 00:00:26.867
+called prototypes.
+
+12
+00:00:27.333 --> 00:00:30.300
+We swapped head with tail,
+or wing with tail,
+
+13
+00:00:30.500 --> 00:00:33.733
+adding twenty-four pixels of separation.
+
+14
+00:00:34.767 --> 00:00:38.933
+We measured raw evidence
+for the true species, not probability.
+
+15
+00:00:39.767 --> 00:00:42.800
+In photo ten, either swap cut evidence
+
+16
+00:00:42.800 --> 00:00:46.300
+from about thirty-two to below one.
+
+17
+00:00:46.567 --> 00:00:49.167
+But in photo twelve,
+
+18
+00:00:49.733 --> 00:00:53.467
+swapping wing and tail raised evidence
+
+19
+00:00:53.467 --> 00:00:56.433
+from nineteen to twenty-four.
+
+20
+00:00:56.633 --> 00:00:59.433
+One prototype's contribution
+nearly vanished;
+
+21
+00:00:59.700 --> 00:01:01.433
+others contributed more.
+
+22
+00:01:01.767 --> 00:01:05.467
+The prediction stayed correct,
+with different support.
+
+23
+00:01:06.333 --> 00:01:07.833
+Across twenty photos,
+
+24
+00:01:08.167 --> 00:01:12.567
+the head-tail swap lowered evidence
+every time.
+
+25
+00:01:12.767 --> 00:01:15.667
+The wing-tail swap lowered it in fourteen
+
+26
+00:01:15.867 --> 00:01:17.667
+and raised it in six.
+
+27
+00:01:17.967 --> 00:01:22.433
+We also tested sixteen combinations
+of four parts
+
+28
+00:01:22.600 --> 00:01:26.733
+using second-order
+Shapley-Taylor analysis
+
+29
+00:01:27.333 --> 00:01:29.900
+to measure how parts work together.
+
+30
+00:01:30.300 --> 00:01:33.433
+Head-wing interaction scores
+usually decreased.
+
+31
+00:01:33.533 --> 00:01:38.500
+Lower signed scores don't always mean
+weaker effects,
+
+32
+00:01:38.567 --> 00:01:42.133
+and these scores include effects
+from other parts.
+
+33
+00:01:42.567 --> 00:01:45.633
+Moving the whole bird also changed scores.
+
+34
+00:01:45.833 --> 00:01:48.667
+Position and visible editing
+seams matter,
+
+35
+00:01:48.933 --> 00:01:52.867
+so these results describe our edits
+to this model.
+
+36
+00:01:53.167 --> 00:01:54.433
+The key finding:
+
+37
+00:01:54.767 --> 00:02:00.000
+the same answer can hide
+a different explanation.

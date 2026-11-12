@@ -1,0 +1,4 @@
+photo,layout,target_species,predicted_species,target_score,prototype_id,prototype_contribution
+photo_12,original,Glaucous winged Gull,Glaucous winged Gull,19.410350799560547,158,7.066816329956055
+photo_12,head_tail_swap,Glaucous winged Gull,Glaucous winged Gull,17.12664794921875,158,7.2698974609375
+photo_12,wing_tail_swap,Glaucous winged Gull,Glaucous winged Gull,23.96835708618164,158,0.07786336541175842

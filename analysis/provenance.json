@@ -1,0 +1,22 @@
+{
+  "source_snapshot": "c_final_v1",
+  "inference_run": "run_004_formal_A",
+  "source_sha256": {
+    "scripts/st2.py": "c2ee91328a9e454402c5897a768a64fbb0e4c832ad64ff84a83c24a135ac47c6",
+    "tests/test_st2.py": "3f67441b1b62649147fe29853cb3a97aa7d7e9cf9448f49f39ab0609725941a6",
+    "results/c_final_v1/inputs/a_legacy_scores.csv": "f190c010c93f06c8c17b73f3db03e9b137085deeda35fc2b16894a1cba9c3ccc",
+    "results/c_final_v1/interactions.csv": "26d1d56c519711c50262e0158e394e600f42cc0e9c91af28f19e993c7e8779aa",
+    "results/c_final_v1/source_summary.csv": "b11e3d793cc8e1163f834f7b720ef01a69a86b42dc4ffaf5c4a43b9e96ef5019",
+    "results/c_final_v1/cohort_summary.json": "a7fac92af322cfaa30da19c5820f3d5a62eb5914824d2159000d45bb86792cb4"
+  },
+  "extraction": {
+    "coalition_scores.csv": "Only condition=coalition; retain scalar target_score, layout and coalition bits. Replace formal_NNN labels with photo_NN, preserving project case numbers.",
+    "expected_terms.csv": "Retain ST2 term names and original numeric value strings; replace source IDs.",
+    "photo_scores.csv": "Retain full coalition scores L0/L1/L2 and historical failed/pending visual quality category; replace source IDs."
+  },
+  "data_sha256": {
+    "coalition_scores.csv": "9310c3572ee8e641a7462a0cf33ec74bb9ada754e11e4dbefc877ef51c05b4a6",
+    "expected_terms.csv": "414aa5bcef1c39b157b8da6ef447682e0ddd284d07159dc214ad43538ef88996",
+    "photo_scores.csv": "2db9a5b888d413996272a47cc16ae09bbbb76d681765ca022b602ed7ad524858"
+  }
+}

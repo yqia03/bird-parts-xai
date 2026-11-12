@@ -1,0 +1,20 @@
+{
+  "source": "Original project inference adapter snapshot",
+  "files_sha256": {
+    "scripts/quickstart.py": "72bb4f04b932fa3532d304cff3ce437d0952054ca1eff0bdfa98276656161572",
+    "scripts/download_weights.py": "1bb1373336798e9e3629dca3c1a7f652a70df251b8f664972d03fb8786ee0913",
+    "requirements-inference.txt": "d03be9407183e0f57c64a2548cb897cf80f5cc5e296cc61a30028de7ae089b3f"
+  },
+  "original_files_copied_without_modification": true,
+  "model_identity": "CaBRNet 1.2 trained PIPNet / ConvNeXt Tiny / CUB200 / seed 0 / final",
+  "public_weight_source": "https://zenodo.org/records/18429182",
+  "selected_archive_directory": "pipnet_cub200_convnext_s0/final/",
+  "expected_model_state_sha256": "db5c72aa4fc29152d61471567f5b6ee0ddf3eb273c16090968002c7a1a060eb7",
+  "weight_redistributed": false,
+  "current_validation": {
+    "quickstart_help": "passed",
+    "download_weights_help": "passed",
+    "inference_rerun": false,
+    "reason": "Existing inspected Python environments do not provide torch, torchvision and CaBRNet; no packages were installed."
+  }
+}
