@@ -15,7 +15,7 @@ We ran one frozen **PIP-Net with a ConvNeXt-Tiny backbone** on 20 photographs fr
 | Swap head and tail | 20 of 20 | 0 of 20 |
 | Swap wing and tail | 14 of 20 | 6 of 20 |
 
-The gull above was one of the six increases. Prototype 158, a learned visual pattern, contributed **7.07** points before the wing–tail swap and **0.08** afterward. Other prototypes supplied enough evidence to raise the total. These are raw model scores. Moving an intact bird also changed its score, so absolute position and visible seams matter when interpreting the swaps. [Gull case data](examples/gull.csv) · [Results for all 20 photos](analysis/score_changes.svg)
+The gull above was one of the six increases. Prototype 158, a learned visual pattern, contributed **7.07** points before the wing–tail swap and **0.08** afterward. Other prototypes supplied enough evidence to raise the total. In the edited image, the wing moved 41 pixels right and 46 down, and the tail moved the same distances in the opposite direction. The review team checked the prototype values against the scoring export. These are raw model scores. Moving an intact bird also changed its score, so absolute position and visible seams matter when interpreting the swaps. [Gull case data](examples/gull.csv) · [Results for all 20 photos](analysis/score_changes.svg)
 
 ## Reproduce the analysis
 
@@ -28,8 +28,15 @@ python3 -m unittest discover -s analysis/tests
 
 [Analysis, data and figure](analysis/) · [Run the frozen model on an image](inference/) · [Video credits](media/CREDITS.md)
 
-## Team and sources
+## Contributors
 
-Four people built the study. The team prepared the bird-part edits, ran model inference, reviewed the results and produced the presentation. Repository maintainer [@yqia03](https://github.com/yqia03) integrated the image and score tables and led the AI-assisted interaction analysis.
+| Contributor | Work on the study |
+| --- | --- |
+| [WANG Shuangjing (@Bright430)](https://github.com/Bright430) | Ran the frozen model and exported target scores and prototype contributions. |
+| [JIN Yupeng (@PP201666)](https://github.com/PP201666) | Prepared the bird-part masks, edited layouts and translation controls. |
+| [QIAN Yuwei (@yqia03)](https://github.com/yqia03) | Integrated the image and score tables and led the AI-assisted interaction analysis. |
+| [WANG Siming (@simon27493619-byte)](https://github.com/simon27493619-byte) | Reviewed the images and numerical claims and prepared the presentation materials. |
+
+## Sources
 
 The images came from [CUB-200-2011](https://www.vision.caltech.edu/datasets/cub_200_2011/). We used the [PIP-Net architecture](https://github.com/M-Nauta/PIPNet) and Romain Xu-Darme's [CaBRNet-trained CUB checkpoint](https://doi.org/10.5281/zenodo.18429182). The interaction analysis follows [Sundararajan, Dhamdhere and Agarwal (2020)](https://proceedings.mlr.press/v119/sundararajan20a.html).
